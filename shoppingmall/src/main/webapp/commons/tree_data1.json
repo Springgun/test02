@@ -1,0 +1,41 @@
+[{
+	"id":1,
+	"text":"买家",
+	"children":[{
+		"id":11,
+		"text":"营销管理",
+		"state":"closed",
+		"children":[{
+			"id":111,
+			"text":"营销机会管理",
+			"attributes":{    
+	            "url":"/chance/list"  
+	        }
+		},{
+			"id":112,
+			"text":"客户开发计划"
+		}]
+	},{
+		"id":12,
+		"text":"客户管理",
+		"state":"closed",
+		"children":[{
+			"id":121,
+			"text":"Intel"
+		},{
+			"id":122,
+			"text":"Java",
+			"attributes":{
+				"p1":"Custom Attribute1",
+				"p2":"Custom Attribute2"
+			}
+		},{
+			"id":123,
+			"text":"Microsoft Office"
+		},{
+			"id":124,
+			"text":"Games",
+			"checked":true
+		}]
+	}]
+}]

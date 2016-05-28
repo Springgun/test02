@@ -1,0 +1,41 @@
+[{
+	"id":1,
+	"text":"卖家",
+	"children":[{
+		"id":11,
+		"text":"商品管理",
+		"state":"closed",
+		"children":[{
+			"id":111,
+			"text":"已上架商品",
+			"attributes":{    
+	            "url":"/chance/list"  
+	        }
+		},{
+			"id":112,
+			"text":"商品下架"
+		}]
+	},{
+		"id":12,
+		"text":"上架商品",
+		"state":"closed",
+		"children":[{
+			"id":121,
+			"text":"Intel"
+		},{
+			"id":122,
+			"text":"发布商品",
+			"attributes":{
+				 "url":"/product/up" 
+				
+			}
+		},{
+			"id":123,
+			"text":"Microsoft Office"
+		},{
+			"id":124,
+			"text":"Games",
+			"checked":true
+		}]
+	}]
+}]
